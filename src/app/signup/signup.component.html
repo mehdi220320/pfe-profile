@@ -1,0 +1,70 @@
+<div class="work-steps" id="work-steps">
+  <h2 class="main-title" style="    margin-left: 45%;">Rejoignez-nous </h2>
+  <div class="container">
+
+    <div class="info" style="display: flex;width: 120%; margin-left: -89px ">
+      <div class="box" style="background-color: #e5d7bf;border-top-left-radius: 80px 80px;">
+        <img src="assets/imgs/chojra.png" >
+      </div>
+      <div class="box" style="border-bottom-right-radius: 80px 80px;">
+        <div class="form">
+          <div class="content">
+            <div class="formulaire">
+            <form action="" ><!-- #signupForm ="ngForm" (ngSubmit)="signup(signupForm)"-->
+              <h2>Créer un nouveau compte</h2>
+              <div class="input-signup">
+                <label for="name"> Prénom</label>
+                <input type="text"  name="name" id="name"  required>
+              </div>
+
+              <div class="input-signup">
+                <label for="lastname">Nom</label>
+                <input type="text"  name="lastname" id="lastname"  required>
+              </div>
+
+              <div class="input-signup">
+                <label for="username">Adresse e-mail</label>
+                <input type="text"  name="username" id="username"  required>
+              </div>
+
+              <div class="input-signup">
+                <label for="userPassword">Mot de passe</label>
+                <input type="Password"  name="userPassword" id="userPassword"  required>
+              </div>
+              <div class="input-signup">
+                <label for="confirmPassword">Confirmer mot de passe</label>
+                <input type="password"  name="confirmPassword" id="confirmPassword"  required>
+              </div>
+              <div class="input-signup">
+                <label for="my-select">Tu es:</label>
+                <select id="my-select" name="my-select">
+                  <option value="option1">Un visiteur</option>
+                  <option value="option2">Un Artiste </option>
+                </select>
+              </div>
+
+              <div class="input-signup">
+                <label for="CIN">CIN</label>
+                <input type="number"  name="CIN" id="CIN"  required>
+              </div>
+              <div class="input-signup">
+                <label for="Card">Card number</label>
+                <input type="number"  name="Card" id="Card"  required>
+              </div>
+              <div class="input-signup">
+                <label for="ping">ping</label>
+                <input type="number"  name="ping" id="ping"  required>
+              </div>
+
+
+              <input type="submit" value="Confirmez"  class="submit-btn" routerLink="/signin" >
+
+            </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
