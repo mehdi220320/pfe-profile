@@ -1,7 +1,7 @@
-<div class="header" id="header">
+ <div class="header" id="header">
 
   <div class="container">
-    <a href="#" style="display: flex ; cursor: pointer"><img style="width: 68px" src="assets/imgs/UpcyclingArt-removebg-preview.png">
+    <a routerLink="home" style="display: flex ; cursor: pointer;margin-left: -66px;"><img style="width: 68px" src="assets/imgs/UpcyclingArt-removebg-preview.png">
       <h2 class="logo">UpcyclingArt</h2>
     </a>
 
@@ -11,40 +11,42 @@
       <li>
         <a href="#">Autres liens</a>
         <!-- Start Megamenu -->
-        <div class="mega-menu">
-          <div class="image">
-            <img src="/assets/imgs/megamenu.png" alt="" />
-          </div>
-          <ul class="links">
-            <li>
-              <a href="#testimonials"><i class="far fa-comments fa-fw"></i>Nos artistes</a>
-            </li>
-            <li>
-              <a href="#services"><i class="far fa-building fa-fw"></i>Services</a>
-            </li>
-            <li>
-              <a href="#work-steps"><i class="far fa-clipboard fa-fw"></i>Comment ça fonctionne</a>
-            </li>
-          </ul>
-          <ul class="links">
-            <li>
-              <a href="#pricing"><i class="fas fa-server fa-fw"></i>plans tarifaires</a>
-            </li>
-            <li>
-              <a href="#stats"><i class="far fa-chart-bar fa-fw"></i>Statistiques</a>
-            </li>
-            <li>
-              <a href="#discount"><i class="fas fa-percent fa-fw"></i>Demander une remise</a>
-            </li>
-
-          </ul>
-
-        </div>
-        <!-- End Megamenu -->
+  <div class="mega-menu">
+    <div class="image">
+      <img src="/assets/imgs/megamenu.png" alt="" />
+    </div>
+    <ul class="links">
+      <li>
+        <a href="#testimonials"><i class="far fa-comments fa-fw"></i>Nos artistes</a>
       </li>
-      <li><a href="#"><span style="margin-right: 8px" class="fa-solid fa-user-plus" ></span>Sign Up</a></li>
-      <li><a href="#"><span style="margin-right: 8px" class="fa-solid fa-right-to-bracket"></span>Singin</a></li>
-      <li><div><a id="contact" href="mailto:someone@example.com">Contactez-nous</a></div></li>
+      <li>
+        <a href="#services"><i class="far fa-building fa-fw"></i>Services</a>
+      </li>
+      <li>
+        <a href="#work-steps"><i class="far fa-clipboard fa-fw"></i>Comment ça fonctionne</a>
+      </li>
     </ul>
+    <ul class="links">
+      <li>
+        <a href="#pricing"><i class="fas fa-server fa-fw"></i>plans tarifaires</a>
+      </li>
+      <li>
+        <a href="#stats"><i class="far fa-chart-bar fa-fw"></i>Statistiques</a>
+      </li>
+      <li>
+        <a href="#discount"><i class="fas fa-percent fa-fw"></i>Demander une remise</a>
+      </li>
+
+    </ul>
+
   </div>
+        <!-- End Megamenu -->
+   </li>
+    <li routerLinkActive="active"><a routerLink="/signup"><span style="margin-right: 8px" class="fa-solid fa-user-plus" ></span>S'inscrire </a></li>
+    <li routerLinkActive="active" ><a routerLink="/signupartist"><span style="margin-right: 8px" class="fa-solid fa-user-plus" ></span>Artiste </a></li>
+    <li><a href="#"><span style="margin-right: 8px" class="fa-solid fa-right-to-bracket"></span>Connexion</a></li>
+    <li><div><a id="contact" href="mailto:someone@example.com">Contactez-nous</a></div></li>
+  </ul>
 </div>
+</div>
+

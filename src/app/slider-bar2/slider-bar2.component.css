@@ -1,0 +1,125 @@
+section{
+  margin-top: 40px;
+}
+.slider-wrapper{
+  position: relative;
+  margin: 0 auto;
+  height:400px;
+
+}
+.slider{
+  display: flex;
+  aspect-ratio:16/9;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  box-shadow: 0 1.5rem 3rem -0.75rem hsla(0,0%,0%,0.25);
+  border-radius: 0.5rem;
+
+}
+
+
+
+.slider-nav{
+  display: flex;
+  column-gap: 1rem;
+  position: absolute;
+  bottom: -0.75rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+.slider-nav a{
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #0aeb73;
+  opacity: 0.75;
+  transition: opacity ease 250ms;
+}
+.slider-nav a:hover{
+  opacity: 1;
+}
+.slider::-webkit-scrollbar {
+  display: none;
+}
+.slider-btn{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  color: #040404;
+  font-size: 2rem;
+  z-index: 1;
+  cursor: pointer;
+}
+.slider-btn.prev{
+  left: 1rem;
+}
+.slider-btn.next{
+  right: 1rem;
+}
+.slider-view{
+  height: max-content;
+  scroll-snap-align: start;
+  object-fit:cover;
+  flex: 1 0 100%;
+  display: flex;
+
+}
+.slider-view img{
+  height:450px;
+
+}
+.content{
+  padding: 20px;
+  margin: 0;
+}
+.content h1{
+  margin-left: 40px;
+  margin-bottom: 20px;
+  font-size:3.5em	;
+  font-family:'Times New Roman', Times, serif;	}
+.content h3{
+  margin-left: 40px;
+  margin-bottom: 10px;
+  font-size:1.5em	;
+  font-family: cursive;	}
+.content p{
+  margin-left: 40px;
+  line-height: 1.5;
+  font-size: 20px;
+}
+.apropos{
+  width: 200px;
+  height: 50px;
+  background: #f2eff1;
+  margin-left: 7%;
+  margin-top: 15px;
+  font-size: 1.3em;
+  border-radius: 6px;
+}
+.button-benefits{
+  width: 200px;
+  height: 50px;
+  background: #fff;
+  font-size: 1.3em;
+  border-radius: 6px;
+  margin-left: 65%;
+}
+.button-benefits-user{
+  width: 200px;
+  height: 50px;
+  background: #fff;
+  font-size: 1.3em;
+  border-radius: 6px;
+  margin-left: 65%;
+  margin-top:10px;
+}
+.slider-btn  img{
+  width:25px;
+}
+.slider-btn.prev img{
+  transform: rotate(180deg);
+}

@@ -16,6 +16,9 @@ import { PostProfileComponent } from './post-profile/post-profile.component';
 import { CreatePostComponent } from './create-post/create-post.component';
 import { MyProfileComponent } from './my-profile/my-profile.component';
 import {MatGridListModule} from '@angular/material/grid-list';
+import { ArtistsignupComponent } from './artistsignup/artistsignup.component';
+import { SliderBarComponent } from './slider-bar/slider-bar.component';
+import { SliderBar2Component } from './slider-bar2/slider-bar2.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +32,10 @@ import {MatGridListModule} from '@angular/material/grid-list';
     AproposProfileComponent,
     PostProfileComponent,
     CreatePostComponent,
-    MyProfileComponent
+    MyProfileComponent,
+    ArtistsignupComponent,
+    SliderBarComponent,
+    SliderBar2Component
   ],
   imports: [
     BrowserModule,
